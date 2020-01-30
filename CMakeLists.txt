@@ -41,7 +41,7 @@ include(pgr/GitInfo)
 
 include(pgr/Version)
 add_definitions(-DPGROUTING_VERSION="${PGROUTING_VERSION}${PGROUTING_VERSION_DEV}")
-set(PGROUTING_LIB_NAME "pgrouting-${PGROUTING_LIB_VERSION}")
+set(PGROUTING_LIB_NAME "pgrouting-one-${PGROUTING_LIB_VERSION}")
 
 string(TIMESTAMP COMPILATION_DATE "%Y/%m/%d")
 
